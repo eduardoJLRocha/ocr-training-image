@@ -1,0 +1,24 @@
+2026-10-29 21:32:17,348 INFO Converted pretrained model verified against ONNX (max_abs_error=3.9339066e-06)
+2026-10-29 21:32:17,477 INFO Starting real fine-tuning: base=C:\Python311\Lib\site-packages\rapidocr_onnxruntime\models\ch_PP-OCRv4_rec_infer.onnx train_lines=3 validation_lines=2 epochs=20 trainable=795000/2446780
+2026-10-29 21:32:17,477 INFO Initial validation CTC loss: 0.732310
+2026-10-29 21:32:17,946 INFO epoch=1/20 train_ctc_loss=0.038873 validation_ctc_loss=0.732019 best_validation_ctc_loss=0.732019
+2026-10-29 21:32:18,231 INFO epoch=2/20 train_ctc_loss=0.038178 validation_ctc_loss=0.732035 best_validation_ctc_loss=0.732019
+2026-10-29 21:32:18,506 INFO epoch=3/20 train_ctc_loss=0.038203 validation_ctc_loss=0.732002 best_validation_ctc_loss=0.732002
+2026-10-29 21:32:18,780 INFO epoch=4/20 train_ctc_loss=0.039505 validation_ctc_loss=0.731995 best_validation_ctc_loss=0.731995
+2026-10-29 21:32:19,059 INFO epoch=5/20 train_ctc_loss=0.038331 validation_ctc_loss=0.731936 best_validation_ctc_loss=0.731936
+2026-10-29 21:32:19,348 INFO epoch=6/20 train_ctc_loss=0.036714 validation_ctc_loss=0.731929 best_validation_ctc_loss=0.731929
+2026-10-29 21:32:19,646 INFO epoch=7/20 train_ctc_loss=0.036850 validation_ctc_loss=0.731896 best_validation_ctc_loss=0.731896
+2026-10-29 21:32:19,935 INFO epoch=8/20 train_ctc_loss=0.037780 validation_ctc_loss=0.731865 best_validation_ctc_loss=0.731865
+2026-10-29 21:32:20,209 INFO epoch=9/20 train_ctc_loss=0.037530 validation_ctc_loss=0.731855 best_validation_ctc_loss=0.731855
+2026-10-29 21:32:20,633 INFO epoch=10/20 train_ctc_loss=0.037281 validation_ctc_loss=0.731808 best_validation_ctc_loss=0.731808
+2026-10-29 21:32:21,068 INFO epoch=11/20 train_ctc_loss=0.035658 validation_ctc_loss=0.731787 best_validation_ctc_loss=0.731787
+2026-10-29 21:32:21,528 INFO epoch=12/20 train_ctc_loss=0.033963 validation_ctc_loss=0.731760 best_validation_ctc_loss=0.731760
+2026-10-29 21:32:21,982 INFO epoch=13/20 train_ctc_loss=0.034581 validation_ctc_loss=0.731706 best_validation_ctc_loss=0.731706
+2026-10-29 21:32:22,279 INFO epoch=14/20 train_ctc_loss=0.034792 validation_ctc_loss=0.731718 best_validation_ctc_loss=0.731706
+2026-10-29 21:32:22,625 INFO epoch=15/20 train_ctc_loss=0.036664 validation_ctc_loss=0.731657 best_validation_ctc_loss=0.731657
+2026-10-29 21:32:22,922 INFO epoch=16/20 train_ctc_loss=0.034244 validation_ctc_loss=0.731616 best_validation_ctc_loss=0.731616
+2026-10-29 21:32:23,218 INFO epoch=17/20 train_ctc_loss=0.034780 validation_ctc_loss=0.731576 best_validation_ctc_loss=0.731576
+2026-10-29 21:32:23,500 INFO epoch=18/20 train_ctc_loss=0.035436 validation_ctc_loss=0.731528 best_validation_ctc_loss=0.731528
+2026-10-29 21:32:23,787 INFO epoch=19/20 train_ctc_loss=0.035278 validation_ctc_loss=0.731480 best_validation_ctc_loss=0.731480
+2026-10-29 21:32:24,106 INFO epoch=20/20 train_ctc_loss=0.035024 validation_ctc_loss=0.731435 best_validation_ctc_loss=0.731435
+2026-10-29 21:32:25,773 INFO Training completed. Exported C:\Users\LENOVO\Desktop\teachable-clone\artifacts\ocr_finetune\recognizer_finetuned.onnx; best epoch 20; validation CTC loss 0.732310 -> 0.731435

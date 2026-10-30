@@ -1,0 +1,35 @@
+{
+  "status": "evaluation_completed",
+  "model": "finetuned",
+  "model_path": "C:\\Users\\LENOVO\\Desktop\\teachable-clone\\artifacts\\ocr_finetune\\recognizer_finetuned.onnx",
+  "model_sha256": "0ee291260a87fb52f02742596f45329ae13e4421c6e71c1902f8b29942ffc962",
+  "test_images": 2,
+  "cer": 0.1111111111111111,
+  "wer": 0.3333333333333333,
+  "character_errors": 2,
+  "reference_characters": 18,
+  "word_errors": 1,
+  "reference_words": 3,
+  "results": [
+    {
+      "file": "orchard-hotel-facade.jpg",
+      "reference": "hard hotel",
+      "prediction": "hard hotel h",
+      "character_errors": 2,
+      "reference_characters": 10,
+      "word_errors": 1,
+      "reference_words": 2,
+      "processing_time_ms": 2681.48
+    },
+    {
+      "file": "malaysia-stop-sign.png",
+      "reference": "berhenti",
+      "prediction": "berhenti",
+      "character_errors": 0,
+      "reference_characters": 8,
+      "word_errors": 0,
+      "reference_words": 1,
+      "processing_time_ms": 1541.77
+    }
+  ]
+}

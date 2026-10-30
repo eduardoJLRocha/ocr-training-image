@@ -1,0 +1,8 @@
+__pycache__/
+.pytest_cache/
+.playwright-mcp/
+.venv/
+node_modules/
+dist/
+*.py[cod]
+.env

@@ -1,0 +1,35 @@
+{
+  "status": "evaluation_completed",
+  "model": "original",
+  "model_path": "C:\\Python311\\Lib\\site-packages\\rapidocr_onnxruntime\\models\\ch_PP-OCRv4_rec_infer.onnx",
+  "model_sha256": "48fc40f24f6d2a207a2b1091d3437eb3cc3eb6b676dc3ef9c37384005483683b",
+  "test_images": 2,
+  "cer": 0.1111111111111111,
+  "wer": 0.3333333333333333,
+  "character_errors": 2,
+  "reference_characters": 18,
+  "word_errors": 1,
+  "reference_words": 3,
+  "results": [
+    {
+      "file": "orchard-hotel-facade.jpg",
+      "reference": "hard hotel",
+      "prediction": "hard hotel h",
+      "character_errors": 2,
+      "reference_characters": 10,
+      "word_errors": 1,
+      "reference_words": 2,
+      "processing_time_ms": 3352.15
+    },
+    {
+      "file": "malaysia-stop-sign.png",
+      "reference": "berhenti",
+      "prediction": "berhenti",
+      "character_errors": 0,
+      "reference_characters": 8,
+      "word_errors": 0,
+      "reference_words": 1,
+      "processing_time_ms": 1489.21
+    }
+  ]
+}

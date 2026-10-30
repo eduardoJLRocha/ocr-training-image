@@ -1,0 +1,6 @@
+split,image,left,top,right,bottom,text,annotation_method
+train,london-street-sign.jpg,228,175,460,238,LONDON,manual-visual
+train,london-street-sign.jpg,228,235,538,300,STREET W2,manual-visual
+train,london-street-sign.jpg,228,315,515,354,CITY OF WESTMINSTER,manual-visual
+validation,boulevard-neon.jpg,1120,855,2260,1085,BOULEVARD,manual-visual
+validation,boulevard-neon.jpg,1200,1000,2010,1260,Hotel,manual-visual

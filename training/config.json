@@ -1,0 +1,15 @@
+{
+  "base_model": "RapidOCR bundled ch_PP-OCRv4_rec_infer.onnx (PaddleOCR PP-OCRv4 recognizer)",
+  "seed": 20261029,
+  "epochs": 20,
+  "learning_rate": 0.00001,
+  "weight_decay": 0.0001,
+  "batch_size": 1,
+  "image_height": 48,
+  "image_width": 320,
+  "train_split": "data/ocr/annotations.csv rows where split=train",
+  "validation_split": "data/ocr/annotations.csv rows where split=validation",
+  "holdout_split": "data/ocr/test; evaluation only, never loaded by training",
+  "fine_tuning_scope": "Final PP-OCRv4 CTC projection matrix only; frozen feature extractor",
+  "augmentations": "Deterministic per-epoch brightness and contrast jitter on training crops only"
+}

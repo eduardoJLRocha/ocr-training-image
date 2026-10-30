@@ -1,0 +1,118 @@
+{
+  "status": "training_completed",
+  "base_model": "C:\\Python311\\Lib\\site-packages\\rapidocr_onnxruntime\\models\\ch_PP-OCRv4_rec_infer.onnx",
+  "base_sha256": "48fc40f24f6d2a207a2b1091d3437eb3cc3eb6b676dc3ef9c37384005483683b",
+  "seed": 20261029,
+  "epochs_executed": 20,
+  "best_epoch": 20,
+  "train_line_crops": 3,
+  "validation_line_crops": 2,
+  "held_out_test_images": 0,
+  "initial_validation_ctc_loss": 0.7323101200163364,
+  "best_validation_ctc_loss": 0.7314353361725807,
+  "history": [
+    {
+      "epoch": 1,
+      "train_ctc_loss": 0.038872835536797844,
+      "validation_ctc_loss": 0.7320186942815781
+    },
+    {
+      "epoch": 2,
+      "train_ctc_loss": 0.03817792360981306,
+      "validation_ctc_loss": 0.7320348937064409
+    },
+    {
+      "epoch": 3,
+      "train_ctc_loss": 0.038202740252017975,
+      "validation_ctc_loss": 0.7320024892687798
+    },
+    {
+      "epoch": 4,
+      "train_ctc_loss": 0.03950505703687668,
+      "validation_ctc_loss": 0.7319953050464392
+    },
+    {
+      "epoch": 5,
+      "train_ctc_loss": 0.03833057234684626,
+      "validation_ctc_loss": 0.7319359350949526
+    },
+    {
+      "epoch": 6,
+      "train_ctc_loss": 0.03671380256613096,
+      "validation_ctc_loss": 0.7319292072206736
+    },
+    {
+      "epoch": 7,
+      "train_ctc_loss": 0.03685034438967705,
+      "validation_ctc_loss": 0.7318961229175329
+    },
+    {
+      "epoch": 8,
+      "train_ctc_loss": 0.03777957335114479,
+      "validation_ctc_loss": 0.7318650856614113
+    },
+    {
+      "epoch": 9,
+      "train_ctc_loss": 0.037530247742931046,
+      "validation_ctc_loss": 0.7318548057228327
+    },
+    {
+      "epoch": 10,
+      "train_ctc_loss": 0.037281313290198646,
+      "validation_ctc_loss": 0.7318083867430687
+    },
+    {
+      "epoch": 11,
+      "train_ctc_loss": 0.03565839988489946,
+      "validation_ctc_loss": 0.7317871917039156
+    },
+    {
+      "epoch": 12,
+      "train_ctc_loss": 0.03396339466174444,
+      "validation_ctc_loss": 0.731759712100029
+    },
+    {
+      "epoch": 13,
+      "train_ctc_loss": 0.03458131415148576,
+      "validation_ctc_loss": 0.7317057475447655
+    },
+    {
+      "epoch": 14,
+      "train_ctc_loss": 0.03479198180139065,
+      "validation_ctc_loss": 0.7317184489220381
+    },
+    {
+      "epoch": 15,
+      "train_ctc_loss": 0.03666445054113865,
+      "validation_ctc_loss": 0.7316566035151482
+    },
+    {
+      "epoch": 16,
+      "train_ctc_loss": 0.03424350172281265,
+      "validation_ctc_loss": 0.7316156160086393
+    },
+    {
+      "epoch": 17,
+      "train_ctc_loss": 0.034780011201898255,
+      "validation_ctc_loss": 0.7315759249031544
+    },
+    {
+      "epoch": 18,
+      "train_ctc_loss": 0.03543565422296524,
+      "validation_ctc_loss": 0.731528015807271
+    },
+    {
+      "epoch": 19,
+      "train_ctc_loss": 0.0352776845296224,
+      "validation_ctc_loss": 0.7314795926213264
+    },
+    {
+      "epoch": 20,
+      "train_ctc_loss": 0.03502427662412325,
+      "validation_ctc_loss": 0.7314353361725807
+    }
+  ],
+  "trainable_parameter": "initializers.onnx_initializer_292",
+  "trainable_parameter_count": 795000,
+  "weights_exported": "C:\\Users\\LENOVO\\Desktop\\teachable-clone\\artifacts\\ocr_finetune\\recognizer_finetuned.onnx"
+}

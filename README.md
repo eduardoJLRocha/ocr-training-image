@@ -1,6 +1,6 @@
 # Imagem para texto
 
-Aplicação local de OCR com API FastAPI e interface React. O reconhecedor base é RapidOCR/PP-OCRv4. O piloto fine-tuned está disponível como alternativa explícita; o original continua a ser o modelo padrão porque a avaliação não demonstrou melhoria no conjunto de teste.
+Aplicação de OCR com API FastAPI e interface React. O reconhecedor base é RapidOCR/PP-OCRv4. O piloto fine-tuned está disponível como alternativa explícita; o original continua a ser o modelo padrão porque a avaliação não demonstrou melhoria no conjunto de teste.
 
 ## Requisitos
 
