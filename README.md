@@ -88,4 +88,3 @@ As avaliações ficam em `artifacts/ocr_finetune/evaluation-*.json`. Para experi
 ## Limitações
 
 O OCR pode omitir texto manuscrito, estilizado, pequeno ou com pouco contraste e pode devolver erros com confiança elevada. A avaliação usa apenas duas imagens; o teste não mostrou qualquer alteração das métricas após o fine-tuning. O modelo afinado é uma alternativa experimental, com a inferência limitada a um recorte por lote. Confirma sempre informação importante.
-# ocr-training-image
